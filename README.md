@@ -48,7 +48,10 @@ In the end, we should be able to add the Kubernetes resources to a cluster and b
 
 ## Submission
 
-Please clone this repo and submit via Greenhouse. The submission should include:
+Please submit a tarball of your code and manifests via the Greenhouse upload link. The submission should include:
 
-  * A link to your cloned GitHub repo
   * A README file with instructions on how to run the project locally
+  * your API source code
+  * your unit tests
+  * your docker file
+  * your kubernetes manifests
