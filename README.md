@@ -44,7 +44,7 @@ For deployment, we use Kubernetes, so the app will need to run within a Docker c
 
 If you don't have a Kubernetes cluster available, you can run one locally with [Minikube](https://kubernetes.io/docs/setup/minikube/) or [kind](https://github.com/kubernetes-sigs/kind).
 
-In the end, we should be able to add the Kubernetes resources to a cluster and be able to access the API. Additionally, we should be able to run as suite of passing unit tests locally.
+In the end, we should be able to add the Kubernetes resources to a cluster and be able to access the API. Additionally, we should be able to run a suite of passing unit tests locally.
 
 ## Submission
 
