@@ -40,7 +40,7 @@ The API call should return JSON with the requested state and associated request 
 
 ## Deployment
 
-For deployment, we use Kubernetes, so the app will need to run within a Docker container. We don't need to have the container image available publicly, just this repository.
+For deployment, we use Kubernetes, so the app will need to run within a Docker container. We don't need to have the container image available publicly as part of submission, but we should be able to build the image.
 
 If you don't have a Kubernetes cluster available, you can run one locally with [Minikube](https://kubernetes.io/docs/setup/minikube/) or [kind](https://github.com/kubernetes-sigs/kind).
 
