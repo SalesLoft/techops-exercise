@@ -9,7 +9,7 @@ The final result will need:
 - A Docker-ized application
 - Deployment files for Kubernetes
 
-Please use Python and [pytest](https://docs.pytest.org/en/stable/) for the API and test suite. We recommend [Flask](https://flask.palletsprojects.com/en/1.1.x/) as well.
+Please use Python for the API. We recommend [Flask](https://flask.palletsprojects.com/en/1.1.x/) as well.
 
 ## Expected API
 
