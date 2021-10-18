@@ -13,7 +13,7 @@ Please use Python for the API. We recommend [Flask](https://flask.palletsproject
 
 ## Expected API
 
-Your mission, if you choose to accept it, is to create an HTTP API with an endpoint that will return some data from any of the APIs available here https://github.com/public-apis/public-apis
+Your mission, if you choose to accept it, is to create a robust HTTP API with an endpoint that will return some data from any of the APIs available here https://github.com/public-apis/public-apis
 
 Feel free to choose whichever API is interesting to you. If you choose an API that requires an API key **Please don't commit your API key into the repository or publish it to a Docker registry!**
 
