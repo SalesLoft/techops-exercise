@@ -17,7 +17,7 @@ Your mission, if you choose to accept it, is to create a robust HTTP API with an
 
 Feel free to choose whichever API is interesting to you. If you choose an API that requires an API key **Please don't commit your API key into the repository or publish it to a Docker registry!**
 
-The API call should return JSON 
+Your API should return JSON 
 
 ## Deployment
 
