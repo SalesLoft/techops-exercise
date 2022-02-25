@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pokestats
+  labels:
+    app: pokestats
+spec:
+  type: ClusterIP
+  ports:
+  - name: pokestats
+    port: 80
+    targetPort: 5000
+    protocol: TCP
+  selector:
+    app: pokestats
