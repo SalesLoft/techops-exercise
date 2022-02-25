@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pokestats-frontend
+  labels:
+    name: pokestats-frontend
+    app: pokestats
+    tier: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: pokestats-frontend
+  template:
+    metadata:
+      labels:
+        name: pokestats-frontend
+        app: pokestats
+        tier: frontend
+    spec:
+      containers:
+      - name: pokestats
+        image: pokestats-frontend:latest
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 5000
+          initialDelaySeconds: 3
+          periodSeconds: 5

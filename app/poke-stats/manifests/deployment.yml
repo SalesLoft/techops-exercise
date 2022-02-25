@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pokestats-deployment
+  labels:
+    app: pokestats
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pokestats
+  template:
+    metadata:
+      labels:
+        app: pokestats
+    spec:
+      containers:
+      - name: pokestats
+        image: pokestats:latest
+        resources:
+          requests:
+            memory: 100Mi
+            cpu: 100m

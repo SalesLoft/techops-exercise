@@ -1,0 +1,9 @@
+<h1>Welcome to the HomePage!</h1>
+
+The base stats for the original pokemon starters are:
+
+<ul>
+{% for key, value in stats.items() %}
+    <li>{{key}}: {{value}}</li>
+{% endfor %}
+</ul>
