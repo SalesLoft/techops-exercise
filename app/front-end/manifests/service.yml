@@ -9,9 +9,9 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-  clusterIP: 10.0.171.239
+  clusterIP: <bogus-ip>
   type: LoadBalancer
 status:
   loadBalancer:
     ingress:
-    - ip: 192.0.2.127
+    - ip: <bogus-ip>
